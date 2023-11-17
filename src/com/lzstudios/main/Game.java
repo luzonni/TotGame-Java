@@ -45,7 +45,6 @@ public class Game extends Canvas implements Runnable,KeyListener,MouseListener,M
 	public static final int SCALE = 2;
 	
 	private BufferedImage image;
-	//Projeto alterado!
 	
     public static Player player;
     public static boolean playerDead = false;
