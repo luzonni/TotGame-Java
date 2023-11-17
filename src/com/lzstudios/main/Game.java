@@ -45,6 +45,7 @@ public class Game extends Canvas implements Runnable,KeyListener,MouseListener,M
 	public static final int SCALE = 2;
 	
 	private BufferedImage image;
+	//Projeto alterado!
 	
     public static Player player;
     public static boolean playerDead = false;
@@ -197,7 +198,7 @@ public class Game extends Canvas implements Runnable,KeyListener,MouseListener,M
 		g.setColor(new Color(R,G,B));
 		g.fillRect(0, 0,WIDTH,HEIGHT);
 		
-		/*Renderização do jogo*/
+		/*Renderizaï¿½ï¿½o do jogo*/
 		Graphics2D g2 = (Graphics2D) g;
 		//Tiles
 		world.render(g);
@@ -212,7 +213,7 @@ public class Game extends Canvas implements Runnable,KeyListener,MouseListener,M
 		//Darkness
 		g.setColor(new Color(0,0,0,Darkness));
 		g.fillRect(0, 0, WIDTH, HEIGHT);
-		//Renderização
+		//Renderizaï¿½ï¿½o
 		ui.render(g);
 		setcolor.render(g);
 		g.dispose();
